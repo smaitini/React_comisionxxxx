@@ -1,12 +1,12 @@
 
 import './App.css'
-
+import Navbar from "./components/Navbar/Navbar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 function App() {
-
-
   return (
     <>
-    <h1>aca va un NavBar</h1>
+    <Navbar/>
+    <ItemListContainer mensaje="Aca va el catálogo de productos"/>
     </>
   )
 }
